@@ -46,7 +46,7 @@ th{
 /*especificidad -> 1*/
 tr, td, th{ 
     font-size: 1.2em;
-    border: 0.05em solid green;}
+    border: 0.05em solid black;}
 
 
 /*especificidad -> 2*/

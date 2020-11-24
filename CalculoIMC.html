@@ -12,15 +12,15 @@
     <body>
         <h1>Cálculo índice de masa corporal</h1>
         <div class="container">
-            <label for="lblPeso"><b>Introduza su peso en kilogramos</b></label>
+            <b>Introduza su peso en kilogramos</b>
             <br>
             <input type="text" placeholder="(ejemplo: 58.3)" id="txtPeso" name="txtPeso" required>
             <br>
-            <label for="lblAltura"><b>Introduzca su altura en metros</b></label>
+            <b>Introduzca su altura en metros</b>
             <br>
             <input type="text" placeholder="(ejemplo: 1.70)" id="txtAltura" name="txtAltura" required>
             <br>
-            <button type="calcular" onclick="calculadora.calcularIMC();">Calcular</button>
+            <button type="button" onclick="calculadora.calcularIMC();">Calcular</button>
         </div>
         <div id='contenedor_resultado' style="display: none;">
             Con un índice de masa corporal de <span id='imc'></span>, se encuentra en el siguiente grupo: <span id="resultado"></span>

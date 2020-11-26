@@ -41,7 +41,7 @@ class CalculadoraIMC {
         }else if (res >= 35 && res <= 35.9) {
             resultStr = "Obesidad de tipo II";
         }else if (res >= 40 && res <= 49.9) {
-            resultStr = "Obesidad de tipo II (mórbida)";
+            resultStr = "Obesidad de tipo III (mórbida)";
         }else if (res > 50) {
             resultStr = "Obesidad de tipo IV (extrema)";
         }

@@ -38,7 +38,7 @@ class CalculadoraIMC {
             resultStr = "Sobrepeso grado II (preobesidad)";
         }else if (res >= 30 && res <= 34.9) {
             resultStr = "Obseidad de tipo I";
-        }else if (res >= 35 && res <= 35.9) {
+        }else if (res >= 35 && res <= 39.9) {
             resultStr = "Obesidad de tipo II";
         }else if (res >= 40 && res <= 49.9) {
             resultStr = "Obesidad de tipo III (mórbida)";

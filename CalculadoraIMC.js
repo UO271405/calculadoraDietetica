@@ -32,9 +32,9 @@ class CalculadoraIMC {
             resultStr = "Peso insuficiente"
         }else if (res >= 18.5 && res <= 24.9) {
             resultStr = "Normopeso";
-        }else if (res >= 25 && res <= 25.6) {
+        }else if (res >= 25 && res <= 26.9) {
             resultStr = "Sobrepeso grado I";
-        }else if (res >= 27 && res <= 27.9) {
+        }else if (res >= 27 && res <= 29.9) {
             resultStr = "Sobrepeso grado II (preobesidad)";
         }else if (res >= 30 && res <= 34.9) {
             resultStr = "Obseidad de tipo I";

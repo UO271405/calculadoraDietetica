@@ -1,3 +1,4 @@
+/*especificidad -> 1*/
 body{
     font: 400 1em Tahoma, sans-serif;
     line-height: 1.8;
@@ -5,17 +6,7 @@ body{
     text-align: center;
 }
 
-
-input[type=text]{
-    width: 40%;
-    padding: 0.75em 1.25em;
-    margin: 0.75em 0;
-    display: inline-block;
-    border: 0.063em solid black;
-    box-sizing: border-box;
-    border-radius: 0.7em;
-  }
-
+/*especificidad -> 10*/
 .container {
     margin: auto;
     padding: 1em;
@@ -46,7 +37,7 @@ th{
 /*especificidad -> 1*/
 tr, td, th{ 
     font-size: 1.2em;
-    border: 0.05em solid green;}
+    border: 0.05em solid black;}
 
 
 /*especificidad -> 2*/
